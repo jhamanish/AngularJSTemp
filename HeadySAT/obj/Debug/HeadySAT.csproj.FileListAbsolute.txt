@@ -1,0 +1,7 @@
+C:\Users\dell\source\repos\HeadySAT\HeadySAT\bin\HeadySAT.dll.config
+C:\Users\dell\source\repos\HeadySAT\HeadySAT\bin\HeadySAT.dll
+C:\Users\dell\source\repos\HeadySAT\HeadySAT\bin\HeadySAT.pdb
+C:\Users\dell\source\repos\HeadySAT\HeadySAT\obj\Debug\HeadySAT.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\HeadySAT\HeadySAT\obj\Debug\HeadySAT.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\HeadySAT\HeadySAT\obj\Debug\HeadySAT.dll
+C:\Users\dell\source\repos\HeadySAT\HeadySAT\obj\Debug\HeadySAT.pdb

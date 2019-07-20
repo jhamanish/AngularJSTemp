@@ -1,0 +1,234 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#text {
+    transform: rotate(-90deg);
+    font-size: 50px !important;
+}
+
+#bedroom, #livingroom, #office, #kitchen, #bathroom, #design, #description, #reviews, #related {
+    font-size: 15px;
+}
+
+.logo {
+    grid-area: logo;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: left;
+    margin: 0;
+}
+
+.bedroom {
+    grid-area: bedroom;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.livingroom {
+    grid-area: livingroom;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.office {
+    grid-area: office;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.kitchen {
+    grid-area: kitchen;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.bathroom {
+    grid-area: bathroom;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.search {
+    grid-area: search;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.like {
+    grid-area: like;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.instagram {
+    grid-area: instagram;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.verticaltext {
+    grid-area: verticaltext;
+    width: 100%;
+    height: 100%;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.design {
+    grid-area: design;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.description {
+    grid-area: description;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.reviews {
+    grid-area: reviews;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.related {
+    grid-area: related;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.facebook {
+    grid-area: facebook;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.twitter {
+    grid-area: twitter;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.pinterest {
+    grid-area: pinterest;
+    background-color: #696969 !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.image {
+    grid-area: image;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.price {
+    grid-area: price;
+    background-color: transparent !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.newsletter {
+    grid-area: newsletter;
+    visibility: visible;
+    background-color: whitesmoke !important;
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) repeat(3, 0.75fr) repeat(4, 2fr) repeat(4, 1fr);
+    grid-template-rows: 1fr repeat(5, 1.2fr) 1fr;
+    grid-template-areas: "logo logo logo logo logo bedroom livingroom office kitchen bathroom search like instagram" "verticaltext verticaltext design design design image image image image price price price price" "verticaltext verticaltext description description description image image image image price price price price" "verticaltext verticaltext reviews reviews reviews image image image image price price price price" "verticaltext verticaltext related related related image image image image price price price price" "verticaltext verticaltext facebook twitter pinterest image image image image price price price price" "newsletter newsletter newsletter newsletter newsletter newsletter newsletter newsletter newsletter newsletter newsletter newsletter newsletter";
+    grid-gap: 0px;
+    background-color: whitesmoke;
+    padding: 0px;
+    /*border: 1px solid black*/
+}
+
+    .wrapper > div {
+        background-color: #2196F3;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        /*border: 1px solid black*/
+    }
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 1fr 1fr 4fr 4fr 2fr;
+        grid-template-areas: "logo search like instagram" "design description reviews related" "image image image image" "price price price price" "newsletter newsletter newsletter newsletter";
+        grid-gap: 0px;
+        background-color: whitesmoke;
+        padding: 0px;
+        /*border: 1px solid black*/
+    }
+
+    .wrapper > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        /*border: 1px solid black*/
+    }
+}
